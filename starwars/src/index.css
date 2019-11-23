@@ -5,3 +5,30 @@ body {
   background-image: url('./sw-bg.jpg');
   background-size: cover;
 }
+
+.Header {
+  font-size: 5rem;
+}
+
+.container {
+
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  
+}
+
+.characterCard{
+  background-color: rgba(128, 128, 128, 0.500);
+  height: auto;
+  width: 250px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.headName {
+  color: rgb(83, 60, 46);
+}
